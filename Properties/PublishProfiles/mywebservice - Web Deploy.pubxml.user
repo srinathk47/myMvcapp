@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAX+Koc7qQHUGcsEMtvDUU+wAAAAACAAAAAAAQZgAAAAEAACAAAAAzGvrLEhauFy9Qc5NnUkBXYr7TnN3N7ylvZc1whEVKDAAAAAAOgAAAAAIAACAAAABrL+RV5d3lwiWhYUffym/kV3mDQ+cYvXm4bHCoJeXA84AAAABGxcyYmSs1fKFRBMehR8LN0/YTEHAhTlj8xY/8OZP+g/ehSw5H6Dj9mCKUaGOg3VMiZH1TZy6EwJQv4iAe9WnZpeuhQGf3oaiC82ZAPjdh0ZWJBWAmtPmFOFzDyMX0Vywytv0j8DEpmAK/okfVZrbT3zge3e+lxsqtqsbcABtEe0AAAAAbxM6IycUluLY/veCJ9olbkHBT6wUVh3JYCLCgCDqSfv8KZAIVCzGfhe8zVom0rFAzeeIpaYJSy5uhhw7oCVYc</EncryptedPassword>
+    <History>True|2023-10-11T18:32:48.6592558Z;True|2023-10-11T01:12:00.9884576+05:30;True|2023-10-11T00:45:01.2606365+05:30;True|2023-10-11T00:39:09.1878520+05:30;True|2023-10-11T00:33:35.9714267+05:30;True|2023-10-10T23:59:53.7735100+05:30;True|2023-10-10T23:37:35.4230306+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Constr">
+      <Value>Server=LAPTOP-K0UC6UVI\SQLEXPRESS%3bDatabase=MyWMSDb%3buser Id=sa%3bpassword=Admin%40123%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
