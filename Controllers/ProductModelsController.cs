@@ -53,8 +53,7 @@ namespace Myapplicationsln.Controllers
         }
 
         // POST: ProductModels/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ProductName,Description,Price,Count,ImgURL,CategoryId,Id")] ProductModel productModel)
@@ -88,8 +87,7 @@ namespace Myapplicationsln.Controllers
         }
 
         // POST: ProductModels/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id, [Bind("ProductName,Description,Price,Count,ImgURL,CategoryId,Id")] ProductModel productModel)
